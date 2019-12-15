@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.MainWindow.dictionaryTest">
+   <children>
+      <Label fx:id="word" layoutX="46.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Lithuanian word" textOverrun="CLIP" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <VBox fx:id="buttonsContainer" alignment="CENTER" disable="true" layoutX="371.0" prefHeight="344.0" prefWidth="250.0" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="selection0" mnemonicParsing="false" onMouseClicked="#selection" prefHeight="60.0" prefWidth="250.0" text="Russian word">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="selection1" mnemonicParsing="false" onMouseClicked="#selection" prefHeight="60.0" prefWidth="250.0" text="Russian word">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="selection2" mnemonicParsing="false" onMouseClicked="#selection" prefHeight="60.0" prefWidth="250.0" text="Russian word">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="selection3" mnemonicParsing="false" onMouseClicked="#selection" prefHeight="60.0" prefWidth="250.0" text="Russian word">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="startTest" layoutX="35.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#startTest" prefHeight="60.0" prefWidth="229.0" text="Start test" AnchorPane.bottomAnchor="94.0" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ProgressBar fx:id="progressBar" layoutX="30.0" layoutY="343.0" prefHeight="25.0" prefWidth="620.0" progress="0.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+   </children>
+</AnchorPane>
